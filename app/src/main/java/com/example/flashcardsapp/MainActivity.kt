@@ -1,5 +1,6 @@
 package com.example.flashcardsapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
@@ -23,6 +24,9 @@ class MainActivity : AppCompatActivity() {
       startBtn=findViewById(R.id.startBtn)
         exitBtn=findViewById(R.id.exitBtn)
         startBtn.setOnClickListener{
+          val intent = Intent(this,QuestionsActivity:: class.java)
+            startActivity(intent) // holding the value of question Activity
+            finish()
 
         }
     }
