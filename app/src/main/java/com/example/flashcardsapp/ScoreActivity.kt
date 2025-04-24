@@ -64,6 +64,7 @@ class ScoreActivity : AppCompatActivity() {
                 .setMessage(reviewTxt.toString())
                 .setPositiveButton("okay",null)
                 .show()
+
         }
 
 
