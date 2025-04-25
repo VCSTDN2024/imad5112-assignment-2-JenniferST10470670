@@ -11,8 +11,11 @@ import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
 
+
     private lateinit var startBtn: Button
     private lateinit var exitBtn: Button
+    private lateinit var imageView: ImageView
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,14 +29,21 @@ class MainActivity : AppCompatActivity() {
         }
         startBtn = findViewById(R.id.startBtn)
         exitBtn = findViewById(R.id.exitBtn)
+        imageView = findViewById(R.id.welcomeImg)
+
+
 
         startBtn.setOnClickListener {
 
             val intent = Intent(this, QuestionsActivity::class.java)
-            startActivity(intent) // holding the value of question Activity
+            startActivity(intent)   // holding the value of question Activity
             finish()
 
+
         }
+    exitBtn.setOnClickListener(){
+
+    }
     }
 
 

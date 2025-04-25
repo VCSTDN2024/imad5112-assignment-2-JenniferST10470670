@@ -59,6 +59,10 @@ class ScoreActivity : AppCompatActivity() {
             val reviewTxt = StringBuilder()
             for (i in QuestionsARR.indices){
                 reviewTxt.append("${i + 1}. ${ QuestionsARR[i]}\nAnswer: ${if (AnswersARR[i]) "True" else "False"}\n\n")
+
+            }
+            exitBtn.setOnClickListener(){
+
             }
             builder.setTitle("Review FlashCards")
                 .setMessage(reviewTxt.toString())
