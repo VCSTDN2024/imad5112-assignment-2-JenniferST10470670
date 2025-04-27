@@ -31,7 +31,9 @@ class MainActivity : AppCompatActivity() {
         exitBtn = findViewById(R.id.exitBtn)
         imageView = findViewById(R.id.welcomeImg)
 
+        exitBtn.setOnClickListener(){
 
+        }
 
         startBtn.setOnClickListener {
 
@@ -41,9 +43,7 @@ class MainActivity : AppCompatActivity() {
 
 
         }
-    exitBtn.setOnClickListener(){
 
-    }
     }
 
 

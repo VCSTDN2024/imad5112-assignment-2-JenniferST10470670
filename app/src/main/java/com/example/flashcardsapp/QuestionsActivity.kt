@@ -1,4 +1,8 @@
 package com.example.flashcardsapp
+ //*referencing List*/
+/* https://www.youtube.com/watch?v=_u8zA1CxxV4&t=2642s*/
+/* https://www.youtube.com/watch?v=xAslJ-f9PWs*/
+/*https://www.programiz.com/kotlin-programming/functions*/
 
 import android.content.Intent
 import android.os.Bundle
@@ -11,7 +15,7 @@ import androidx.core.view.WindowInsetsCompat
 import kotlinx.coroutines.selects.select
 
 class QuestionsActivity : AppCompatActivity() {
-
+    //  Declared variables for Xml components but are not initialised
     private lateinit var questionsTv: TextView
     private lateinit var trueBtn: Button
     private lateinit var falseBtn: Button
@@ -19,14 +23,14 @@ class QuestionsActivity : AppCompatActivity() {
     private lateinit var feedBackTv: TextView
     private val QuestionsARR = arrayOf(
 
-        "The Great Wall of China is the only structure that is visible from space", // Arrays questions
+        "The Great Wall of China is the only structure that is visible from space", // Arrays questions for the quiz
         "World War I began in 1914. Answer",
         "Cleopatra was the last ruler of the Ptolemaic dynasty in Egypt.",
         "Nelson Mandela died in 2015",
         "The Nazis invaded Greece during WWII"
     )
     private val AnswersARR = arrayOf(
-        false, true, true, false, true  // Array answer
+        false, true, true, false, true  // Array answer stores the answers
     )
 
     private var currentQuestions = 0  // declare variable for the current question number

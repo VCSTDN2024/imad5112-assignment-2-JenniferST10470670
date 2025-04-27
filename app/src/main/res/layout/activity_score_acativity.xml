@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
    android:padding="16dp"
+    android:background="@drawable/score_image"
     android:orientation="vertical"
     tools:context=".ScoreActivity">
 
@@ -28,6 +29,7 @@
     <Button
         android:id="@+id/reviewBtn"
         android:layout_width="200dp"
+        android:backgroundTint="@color/Brown"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="150dp"
@@ -35,9 +37,12 @@
 
     <Button
         android:id="@+id/exitBtn"
-        android:layout_width="match_parent"
+        android:layout_width="260dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/Brown"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:gravity="center"
         android:text="exit" />
 
 

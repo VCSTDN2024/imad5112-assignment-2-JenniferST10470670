@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- image referencing https://za.pinterest.com/pin/1111896595501522442/ -->
+<!--https://youtu.be/tGRNxI9ZHtU?si=7AmKFduVOTbdAgd5 / -->
+<!--https://https://youtu.be/nlPtfncjOWA?si=vipt1QiVv1PEPRJA / -->
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,6 +10,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@drawable/welcome"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
@@ -15,9 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="51dp"
         android:layout_marginBottom="50dp"
-        android:textStyle="bold"
-        android:text="Test your knowlage on Historical Facts"
-        android:textSize="22dp" />
+        android:textStyle="bold"/>
 
 
     <ImageView
