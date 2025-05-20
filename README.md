@@ -6,7 +6,7 @@
 
 -**GitHub Repository**: [ https://github.com/VCSTDN2024/imad5112-assignment-2-JenniferST10470670.git]
 
-**YouTube**: [
+**YouTube**: [https://youtu.be/b93fnr6MI8A?si=ifB-tSLsyFx8n2g5]
 
 
 ## Project summary  
@@ -45,6 +45,19 @@ The Flashcard Application in Android Studio, developed using Kotlin for Assignme
 
 ## Apllication Screenshots 
 
+
+
+-**Figure 1 First screen with Gif** : ![image](https://github.com/user-attachments/assets/d7f17462-aed2-4593-909a-1407bfaaea2e)
+
+
+-**Figure 2: second screen questions** : ![image](https://github.com/user-attachments/assets/7ccd595b-fdbb-4c79-b019-ac6f6a44d5fb)
+
+-**Figure 3: display of incorrect answer**: ![image](https://github.com/user-attachments/assets/bab01211-b7af-479e-9430-b5155814f1cb)
+
+-**Figure 4 : 3rd Score. Screen with Review and Exit Button**!: [image](https://github.com/user-attachments/assets/a0788b99-9361-4766-aed0-5f327bee00b7)
+
+
+-**Figure 5: Pop-up Review of answers for corrections**: ![image](https://github.com/user-attachments/assets/d7bf4935-4a24-4283-b731-c12699c38a2d) 
 
 
 
